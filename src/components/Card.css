@@ -1,0 +1,152 @@
+.main-container__item {
+    background: #FFFFFF;
+    border: 1px solid rgba(143, 154, 157, 0.2);
+    box-sizing: border-box;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin: 0 35px 35px 0;
+    padding: 0 0 25px 25px;
+    width: 336px;
+    height: 350px;
+}
+
+.main-container__wrap {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #757C84;
+}
+
+.main-container__logo-team {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.main-container__battle .main-container__logo-team {
+    margin-top: 4px;
+}
+
+.main-container__status-event {
+    border-radius: 4px;
+    background: url("/img/event-logo.png") no-repeat center, #282830;
+    height: 30px;
+    width: 30px;
+}
+
+.main-container__description-event {
+    margin-right: 24px;
+}
+
+.main-container__addition-description {
+    align-items: center;
+    display: flex;
+    color: #757C84;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.main-container__addition-description img {
+    margin: 0 8px 0 0;
+}
+
+.main-container__description-event .main-container__wrap {
+    align-items: center;
+    margin-bottom: 10px;
+}
+.main-container__wrap .containerCountMatch {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    min-width: 105px;
+    background: #F0F0F0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #757C84;
+    font-weight: bold;
+}
+
+.main-container__location {
+    color: #757C84;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.main-container__name-team {
+    font-weight: bold;
+    color: #282830;
+    font-size: 24px;
+}
+
+.main-container__group-name {
+    color: #282830;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main-container__group-name:first-child {
+    margin-bottom: 13px;
+}
+
+.main-container__coefficient  {
+    background: #FAFAFA;
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 14px;
+    min-width: 60px;
+    font-weight: bold;
+    display: flex;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container__logo-company {
+    width: 65px;
+    height: 15px;
+    background: url("/img/logo-book.png");
+}
+
+.main-container__count-win {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.loser-team .main-container__name-team,
+.loser-team .main-container__count-win{
+    color: #757C84;
+}
+
+@media (max-width: 560px) {
+    .main-container__item {
+        background: #FFFFFF;
+        border: 1px solid rgba(143, 154, 157, 0.2);
+        box-sizing: border-box;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 2px;
+        margin: 0 0 35px 0;
+        padding: 0 0 15px 15px;
+        width: 336px;
+        height: 225px;
+    }
+
+    .main-container__location {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .main-container__description-event {
+        margin: -75px 15px 0px 0px;
+    }
+
+    .main-container__logo-team img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .main-container__description-event .main-container__wrap {
+        margin-bottom: 8px;
+    }
+}

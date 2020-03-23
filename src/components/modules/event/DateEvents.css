@@ -1,0 +1,52 @@
+.main-container__wrap .upcoming,
+.main-container__wrap .finished {
+    background-image: url("/img/date-start-logo.png");
+    width: 182px;
+    height: 164px;
+    text-align: right;
+}
+.main-container__wrap .finished {
+    background-image: url("/img/date-start-logo-fin.png");
+}
+
+.main-container__wrap .time {
+    color: #282830;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 25px 25px 10px 0;
+}
+
+.main-container__wrap .day {
+    color: #757C84;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+@media (max-width: 560px) {
+    .main-container__wrap .upcoming,
+    .main-container__wrap .finished {
+        background-image: url("/img/date-start-logo-sx.png");
+        width: 160px;
+        height: 142px;
+    }
+
+    .main-container__wrap .finished {
+        background-image: url("/img/date-start-logo-fin-sx.png");
+    }
+
+    .main-container__wrap .day {
+        font-size: 12px;
+    }
+
+    .main-container__wrap .time {
+        margin: 15px 15px 5px 0;
+    }
+
+    .main-container__group-name:first-child {
+        margin-bottom: 6px;
+    }
+
+    .main-container__addition-description {
+        font-size: 12px;
+    }
+}

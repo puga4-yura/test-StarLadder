@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "title": "Asia Minor: Play-Off",
+    "date": "29 октября",
+    "time": "19:00",
+    "status": "live",
+    "desc": "Map: Erangel",
+    "group1": {
+      "title": "Group A"
+    },
+    "group2": {
+      "title": "Group B"
+    }
+  },
+  {
+    "id": 2,
+    "title": "upcoming",
+    "date": "29 октября",
+    "time": "19:00",
+    "status": "upcoming",
+    "desc": "Starts in: 5h 39min • Map: Erangel",
+    "group1": {
+      "title": "Group A"
+    },
+    "group2": {
+      "title": "Group B"
+    }
+  },
+  {
+    "id": 3,
+    "title": "upcoming",
+    "date": "29 октября",
+    "time": "19:00",
+    "status": "upcoming",
+    "desc": "Starts in: 5h 39min • Map: Erangel",
+    "group1": {
+      "title": "Group A"
+    },
+    "group2": {
+      "title": "Group B"
+    }
+  },
+  {
+    "id": 4,
+    "title": "upcoming",
+    "date": "29 октября",
+    "time": "19:00",
+    "status": "upcoming",
+    "desc": "Starts in: 5h 39min • Map: Erangel",
+    "group1": {
+      "title": "Group A"
+    },
+    "group2": {
+      "title": "Group B"
+    }
+  },
+  {
+    "id": 5,
+    "title": "ROMAN",
+    "date": "29 октября",
+    "time": "19:00",
+    "status": "finished",
+    "desc": "Natus Vincere (A) - 233pts",
+    "group1": {
+      "title": "Group A"
+    },
+    "group2": {
+      "title": "Group B"
+    }
+  },
+  {
+    "id": 6,
+    "title": "ROMAN",
+    "date": "29 октября",
+    "time": "19:00",
+    "status": "finished",
+    "desc": "Natus Vincere (A) - 233pts",
+    "group1": {
+      "title": "Group A"
+    },
+    "group2": {
+      "title": "Group B"
+    }
+  },
+  {
+    "id": 7,
+    "title": "ROMAN",
+    "date": "29 октября",
+    "time": "19:00",
+    "status": "finished",
+    "desc": "Natus Vincere (A) - 233pts",
+    "group1": {
+      "title": "Group A"
+    },
+    "group2": {
+      "title": "Group B"
+    }
+  },
+  {
+    "id": 8,
+    "title": "ROMAN",
+    "date": "29 октября",
+    "time": "19:00",
+    "status": "finished",
+    "desc": "Natus Vincere (A) - 233pts",
+    "group1": {
+      "title": "Group A"
+    },
+    "group2": {
+      "title": "Group B"
+    }
+  }
+]
+

@@ -1,0 +1,81 @@
+.header {
+    padding-left: 11%;
+    display: flex;
+    box-sizing: border-box;
+    height: 375px;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-end;
+    background: radial-gradient(38.02% 74.54% at 60.78% 0%, rgba(24, 24, 28, 0.46) 0%, #18181C 100%), url('/img/background-header.png');
+}
+
+.header:before {
+    content: "";
+    position: absolute;
+    background: url("/img/logo-star.png") no-repeat ;
+    width: 400px;
+    height: 372px;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 100px;
+    letter-spacing: 1.5px;
+    margin: 122px 0 0 0;
+}
+
+.wrap{
+    display: flex;
+    margin-top: 80px;
+    z-index: 1;
+}
+
+.primaryNav {
+    color: #757C84;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.activeLink {
+    background: #EA5656;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 760px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 560px) {
+    .header {
+        padding-left: 5%;
+        height: 240px;
+        background: url('/img/background-header-sx.png');
+    }
+
+    .header:before {
+        display: none;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .wrap{
+        margin-top: 45px;
+    }
+    .primaryNav {
+        padding: 17px 25px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}

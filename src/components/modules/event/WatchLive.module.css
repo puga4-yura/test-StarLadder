@@ -1,0 +1,70 @@
+.container {
+    background-image: url("/img/watch-star.svg");
+    display: block;
+    height: 164px;
+    text-decoration: none;
+    width: 182px;
+}
+.button {
+    width: 35px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin: 20px 0 0 114px;
+    position: relative;
+    display: block;
+}
+
+.button:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid  #EA5656;
+    content: "";
+    top: 8px;
+    left: 14px;
+}
+.title {
+    display: block;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: right;
+    margin-right: 24px;
+}
+
+@media (max-width: 560px) {
+    .container {
+        background-image: url("/img/watch-star-sx.png");
+        display: block;
+        height: 143px;
+        text-decoration: none;
+        width: 162px;
+    }
+
+    .button {
+        width: 25px;
+        height: 25px;
+        margin: 15px 0 0 118px;
+
+    }
+
+    .button:before {
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 7px solid #EA5656;
+        top: 6px;
+        left: 10px;
+    }
+
+    .title {
+        max-width: 44px;
+        font-size: 12px;
+        float: right;
+        text-align: center;
+        margin-top: 8px;
+        margin-right: 12px;
+    }
+}
